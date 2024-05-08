@@ -19,6 +19,13 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "JisuCar",
   description: "JisuCar WEBSITE",
+  icons: [
+    {
+      rel: "icon",
+      href: "/favicon.ico",
+      url: "/favicon.ico",
+    },
+  ],
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
