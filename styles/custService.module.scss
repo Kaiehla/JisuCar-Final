@@ -1,0 +1,119 @@
+.headerText {
+  font-size: calc(2em + 3vw);
+  font-weight: 800;
+  margin-bottom: 0rem;
+  color: var(--agapaint-yellow);
+  text-align: center;
+  padding-top: calc(2em + 3.5vw);
+  padding-bottom: calc(1.5em + 3.5vw);
+}
+
+.headerDesc {
+  font-size: calc(0.8em + 1vw);
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 20px;
+  color: black;
+  padding-bottom: 0;
+  padding-top: calc(0.7em + 3.5vw);
+}
+
+.headerNote {
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 20px;
+  font-size: calc(0.4em + 1vw);
+  font-weight: 300;
+}
+
+.serviceTitle {
+  font-size: calc(2em + 1vw);
+  font-weight: 700;
+  text-align: center;
+  padding-top: calc(2.5em + 1vw);
+  padding-bottom: 10px;
+}
+
+.serviceTitle2 {
+  font-size: calc(2em + 1vw);
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.serviceNote {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 1.2em;
+}
+
+.cardTitle1 {
+  font-size: calc(1em + 1vw);
+  color: white;
+  z-index: 2;
+  line-height: 1.1;
+}
+
+.cardPrice1 {
+  font-size: calc(0.8em + 1vw);
+  font-weight: medium;
+  color: var(--agapaint-yellow);
+  z-index: 2;
+  margin: 0px;
+}
+
+.cardDescription1 {
+  font-size: 0.9em;
+  font-weight: calc(0.8em + 1vw);
+  color: white;
+  z-index: 2;
+}
+
+.cardDescription2 {
+  font-size: calc(0.2em + 1vw);
+  font-weight: 300;
+  z-index: 2;
+  color: white;
+  margin: 0px;
+}
+
+.cardImg1 {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  filter: brightness(40%);
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 576px) { // Bootstrap's breakpoint for small screens
+    height: 198px; 
+  }
+}
+
+.cardTo {
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 15px;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  @media (max-width: 576px) { // Bootstrap's breakpoint for small screens
+    height: 200px; 
+  }
+}
+
+.cardTo:hover {
+  transform: scale(1.03);
+}

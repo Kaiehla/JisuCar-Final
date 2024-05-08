@@ -1,0 +1,68 @@
+.background {
+  background-color: #f8f8f8;
+}
+
+.addservicebtn {
+  width: 170px;
+  height: 50px;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 112.5% */
+  border: none;
+}
+
+.table {
+  padding-top: 30px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  color: #152536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.tableheader {
+  color: #152536;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.tableimg {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;
+}
+
+.actionbuttons {
+  margin-right: 10px;
+}
+
+.addserviceformclose {
+  color: white;
+  border: none;
+}
+
+.addserviceformadd {
+  color: #fff;
+  border: none;
+}
+
+.updateserviceformupdate {
+  color: #fff;
+  border: none;
+}
+
+.archiveserviceformarchive {
+  color: #fff;
+  border: none;
+}
