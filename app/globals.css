@@ -23,6 +23,7 @@ a {
   --agapaint-black: #141414;
   --agapaint-bg: #f8f8f8;
   --agapaint-light: #f0f6ff;
+  --agapaint-green: #01B14F;
 }
 .agapaint-yellow {
   color: var(--agapaint-yellow);
@@ -50,6 +51,14 @@ a {
 
 .agapaint-yellow-bg {
   background-color: var(--agapaint-yellow);
+}
+
+.agapaint-green {
+  color: var(--agapaint-green);
+}
+
+.agapaint-green-bg {
+  background-color: var(--agapaint-green);
 }
 
 .slide-enter {
@@ -277,7 +286,7 @@ a {
 }
 .brand-wrapper .logo {
   height: 80px;
-  margin-left: -20px;
+  margin-left: -3px;
 }
 
 .login-card {

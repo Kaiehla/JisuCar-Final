@@ -6,6 +6,7 @@
   background-color: #ffffff;
   background-image: url("/public/assets/img/adminSignInBg.png");
   height: 100vh;
+  filter: 'hue-rotate(90deg) saturate(200%)';
 }
 
 .main {

@@ -4,10 +4,10 @@ import signupStyles from "@/styles/signup.module.scss";
 // Bootstrap import for componenents
 import { Container, Row, Col, Image, Card, Form, Button } from "react-bootstrap";
 // Assets
-import signupbg from "@/public/assets/img/about3.png";
+import signupbg from "@/public/assets/img/signBg.jpg";
 import logoFull from "@/public/assets/logo/logoFullHd.png";
 import logoSecondary from "@/public/assets/logo/logoSecondaryBlack.png";
-import logoDark from "@/public/assets/logo/logoDark.png";
+import logoSymbol from "@/public/assets/logo/logo-symbol.png";
 import logoWordSlogan from "@/public/assets/logo/logoWordSlogan.png";
 // Components
 import SignUpCard from "@/components/SignUpCard";
@@ -30,7 +30,7 @@ function signup() {
                     style={{
                       height: "100%",
                       objectFit: "cover",
-                      objectPosition: "35% 0",
+                      objectPosition: "15% 0",
                       borderRadius: "13px",
                       filter: "brightness(80%)",
                     }}
@@ -39,16 +39,16 @@ function signup() {
                 <Col md={7}>
                   <Card.Body>
                     <div className="brand-wrapper">
-                      <Image src={logoDark.src} alt="logo" className="logo" />
+                      <Image src={logoSymbol.src} alt="logo" className="logo" />
                     </div>
                     <p className="login-card-description">Create and Sign In into your account</p>
-                    <p>Your Agapaint journey begins here. Access all appointment features using your Google Account.</p>
+                    <p>Your <span className="text-success fw-semibold">JisuCar</span> journey begins here. Access all appointment features using your Google Account.</p>
                     <SignUpCard role="customer"/>
                     <Link href="/" className="forgot-password-link">
                       Return to Home
                     </Link>
                     <p className="login-card-footer-text">
-                      Explore Agapaint quality at its best!
+                      Explore JisuCar quality at its best!
                       {/* <a href="#!" className="text-reset">
                     Register here
                   </a> */}
