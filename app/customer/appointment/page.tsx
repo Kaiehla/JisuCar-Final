@@ -154,7 +154,7 @@ function custAppointment() {
 
                 {/* Book Appointment */}
                 <Link href="/booking">
-                  <Button variant="success" className="mb-3" style={{ padding: "0.50rem 1rem", fontSize: "0.85rem" }}>
+                  <Button variant="success" className="mb-3" style={{ padding: "0.50rem 1rem", fontSize: "0.85rem", backgroundColor: "var(--agapaint-green)" }}>
                     Book New Appointment
                   </Button>
                 </Link>
