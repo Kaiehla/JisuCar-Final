@@ -14,7 +14,7 @@ function Header() {
               <h1 className={custHeadStyles.h1Top}>
                 CRAFTED FOR
                 <br />
-                <span className="text-success">BRILLIANCE</span>
+                <span style={{color: 'var(--agapaint-green)'}}>BRILLIANCE</span>
               </h1>
             </Col>
           </Row>

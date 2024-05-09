@@ -68,13 +68,19 @@ function Navbar2() {
               onClick={() => handleItemClick("home")}
             />
             <span className={navStyles.spanText} style={{ marginLeft: "10px" }} onClick={() => handleItemClick("home")}>
-              JisuCar
+            <Image
+              src="/assets/logo/logo-text.png"
+              alt="logo"
+              width={143}
+              height={32}
+              onClick={() => handleItemClick("home")}
+            />
             </span>
           </div>
         </Link>
 
         {/* hamburger for smaller screen sizes */}
-        <FaBars color="#198754" className={navStyles.bars} onClick={handleBarsClick} />
+        <FaBars color="var(--agapaint-green)" className={navStyles.bars} onClick={handleBarsClick} />
 
         <div className={`${navStyles.navbar} ${isNavVisible ? navStyles.open : ""}`}>
           <ul className={navStyles.ul}>

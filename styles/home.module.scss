@@ -23,7 +23,7 @@
 }
 
 .cardTitle {
-  color: #198754;
+  color: var(--agapaint-green);
   font-size: 35px;
   font-weight: 900;
 }
@@ -65,7 +65,7 @@
 .hrCustom {
   margin-top: none;
   margin-top: none;
-  border: 1px solid #198754;
+  border: 1px solid var(--agapaint-green);
   height: none;
   margin: auto;
   width: 70%;
@@ -98,7 +98,7 @@
 }
 
 .offer {
-  color: #198754;
+  color: var(--agapaint-green);
   font-size: calc(2.75vw + 20px);
   font-weight: 700;
   text-align: center;
