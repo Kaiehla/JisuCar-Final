@@ -1,22 +1,6 @@
 "use client";
+import { Container, Row, Col, FormControl, Table, InputGroup, Card, Pagination } from "react-bootstrap";
 import {
-  Container,
-  Row,
-  Col,
-  Form,
-  FormControl,
-  Table,
-  Badge,
-  InputGroup,
-  Card,
-  Button,
-  Alert,
-  Dropdown,
-  Modal,
-  Pagination,
-} from "react-bootstrap";
-import {
-  Funnel,
   Search,
   BoxSeam,
   SortAlphaDown,
@@ -26,14 +10,11 @@ import {
 } from "react-bootstrap-icons";
 import { useState, useEffect } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 import ServiceStatus from "@/components/ServiceStatus";
-import PaymentStatus from "@/components/PaymentStatus";
 import AdminHeader from "@/components/AdminHeader";
 import AptDetails from "@/components/AptDetails";
-import AptMaterial from "@/components/AptMaterial";
 import { Appointment, AppointmentData } from "@/types";
 import axios from "axios";
 import ToastPromise from "@/components/ToastPromise";
@@ -80,16 +61,6 @@ function manageAppointment() {
     setAwaitingAppointments(activeAppointments.filter((apt: Appointment) => apt.status === "Awaiting Payment"));
     setPendingAppointments(activeAppointments.filter((apt: Appointment) => apt.status === "Pending"));
   }, [activeAppointments]);
-
-  // Material Used Modal
-  const [muShow, setMuShow] = useState<Appointment | null>(null);
-
-  // Service Status
-  const [showAptMaterial, setShowAptMaterial] = useState(false);
-  const handleCloseModal = () => {
-    setMuShow(null);
-    setShowAptMaterial(false);
-  };
 
   // CONFIRMED APT: Search, Sort, Pagination
   // search function
@@ -306,7 +277,7 @@ function manageAppointment() {
               <Row className="mb-4 mt-4">
                 <Col>
                   <div className="d-flex align-items-center">
-                    <h6 className="me-auto fw-bold agapaint-yellow mb-0">Confirmed Appointments</h6>
+                    <h6 className="me-auto fw-bold jisucar-green mb-0">Confirmed Appointments</h6>
                     <div className="d-flex justify-content-end align-items-center">
                       {/* Search */}
                       <InputGroup className="me-2 mb-2">
@@ -408,7 +379,6 @@ function manageAppointment() {
                               )}
                             </span>
                           </th>
-                          <th>INV</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -438,9 +408,6 @@ function manageAppointment() {
                                   appointment={apt}
                                 />
                               </td>
-                              <td>
-                                <BoxSeam size={24} className="text-success" onClick={() => setMuShow(apt)} />
-                              </td>
                             </tr>
                           ))
                         ) : (
@@ -459,7 +426,7 @@ function manageAppointment() {
               <Row className="mb-4">
                 <Col>
                   <div className="d-flex align-items-center">
-                    <h6 className="me-auto fw-bold agapaint-yellow mb-0">Awaiting Appointments</h6>
+                    <h6 className="me-auto fw-bold jisucar-green mb-0">Awaiting Appointments</h6>
                     <div className="d-flex justify-content-end align-items-center">
                       {/* Search */}
                       <InputGroup className="me-2 mb-2">
@@ -598,7 +565,7 @@ function manageAppointment() {
               <Row className="mb-4">
                 <Col>
                   <div className="d-flex align-items-center">
-                    <h6 className="me-auto fw-bold agapaint-yellow mb-0">Pending Appointments</h6>
+                    <h6 className="me-auto fw-bold jisucar-green mb-0">Pending Appointments</h6>
                     <div className="d-flex justify-content-end align-items-center">
                       {/* Search */}
                       <InputGroup className="me-2 mb-2">
@@ -743,15 +710,6 @@ function manageAppointment() {
               closeDetails={closeDetails}
             />
           </CSSTransition>
-          {/* Modal: Material Used */}
-          {muShow !== null && (
-            <AptMaterial
-              setActiveAppointments={setActiveAppointments}
-              appointment={muShow}
-              show={muShow}
-              hide={handleCloseModal}
-            />
-          )}
         </Row>
       </Container>
     </main>

@@ -5,7 +5,8 @@ import Link from "@/components/Link";
 // Images
 import bookDesktop from "@/public/assets/img/bookDesktop.svg";
 import bookMobile from "@/public/assets/img/bookMobile.svg";
-import logoSecondary from "@/public/assets/logo/logoSecondaryBlack.png";
+import logoSecondary from "@/public/assets/logo/logo-symbol-text.png";
+import logoSecondary2 from "@/public/assets/logo/logo-text.png";
 // SCSS
 import styles from "@/styles/booking.module.scss";
 // Icons
@@ -61,7 +62,7 @@ const Step1 = ({
         <CarType setAppointmentData={setAppointmentData} setCarType={setCarType} />
       </div>
       <div style={{ display: "flex", flexDirection: "column", justifyContent: "flex-end", height: "100%" }}>
-        <Button variant="warning" className="ps-4 pe-4 ms-auto fw-medium me-3 me-lg-0 mt-3" onClick={handleNext}>
+        <Button variant="success" className="ps-4 pe-4 ms-auto fw-medium me-3 me-lg-0 mt-3" onClick={handleNext}>
           Next
         </Button>
       </div>
@@ -210,7 +211,7 @@ const Step2 = ({
         <Button variant="outline-dark" type="submit" className="ps-4 pe-4" onClick={onBack}>
           Back
         </Button>
-        <Button variant="warning" className="ps-4 pe-4 fw-medium" onClick={handleNext}>
+        <Button variant="success" className="ps-4 pe-4 fw-medium" onClick={handleNext}>
           Next
         </Button>
       </div>
@@ -261,7 +262,7 @@ const Step3 = ({
         <Button variant="outline-dark" type="submit" className="ps-4 pe-4" onClick={onBack}>
           Back
         </Button>
-        <Button variant="warning" className="ps-4 pe-4 fw-medium" onClick={handleNext}>
+        <Button variant="success" className="ps-4 pe-4 fw-medium" onClick={handleNext}>
           Next
         </Button>
       </div>
@@ -290,7 +291,7 @@ const Step4 = ({
         Back
       </Button>
 
-      <Button variant="warning" type="submit" className="ps-4 pe-4 fw-medium">
+      <Button variant="success" type="submit" className="ps-4 pe-4 fw-medium">
         Next
       </Button>
     </div>
@@ -395,7 +396,7 @@ const Step5 = ({
     {/* Nav Buttons */}
     <div className="d-sm-grid">
       <Button
-        variant="warning"
+        variant="success"
         type="submit"
         className="fw-bold p-2 w-100 mb-2"
         onClick={() => {
@@ -424,7 +425,7 @@ const Step6 = ({ onBack }) => (
     {/* Nav Buttons */}
     <div className="d-flex justify-content-between">
       <Link href="./customer/appointment">
-        <Button variant="warning" className="ps-4 pe-4 fw-bold">
+        <Button variant="success" className="ps-4 pe-4 fw-bold">
           Go to My Appointments
         </Button>
       </Link>
@@ -485,19 +486,19 @@ function bookAppointment() {
 
   const styles = {
     LineSeparator: () => ({
-      backgroundColor: "#f1b038",
+      backgroundColor: "#01B14F",
     }),
     ActiveNode: () => ({
-      backgroundColor: "#f1b038",
+      backgroundColor: "#01B14F",
     }),
     CompletedNode: () => ({
-      backgroundColor: "#f1b038",
+      backgroundColor: "#01B14F",
     }),
     InactiveLineSeparator: () => ({
       backgroundColor: "gray",
     }),
     ActiveLabelTitle: () => ({
-      color: "#f1b038",
+      color: "#01B14F",
       fontWeight: "700",
     }),
     LabelTitle: () => ({
@@ -654,10 +655,10 @@ function bookAppointment() {
                 <FaArrowLeft className="text-dark ms-3 d-md-none" size={15} />
                 <img
                   src={logoSecondary.src}
-                  style={{ width: "20rem", margin: "auto" }}
-                  className="d-none d-md-inline"
+                  style={{ width: "6rem", margin: "auto" }}
+                  className="d-none d-md-inline mt-3 mb-3"
                 />
-                <img src={logoSecondary.src} style={{ width: "15rem", margin: "auto" }} className="d-md-none" />
+                <img src={logoSecondary2.src} style={{ width: "9rem", margin: "auto" }} className="d-md-none mt-4 mb-3" />
               </Link>
             </Col>
           </Row>
@@ -770,7 +771,7 @@ function bookAppointment() {
             {step == 1 ||
               (step < 5 && (
                 <Col lg={3}>
-                  <Card className="border-0 p-3 bg-warning" style={{ borderRadius: "20px" }}>
+                  <Card className="border-0 p-3 text-light" style={{ backgroundColor: "#01b14f", borderRadius: "20px" }}>
                     <Card.Body>
                       <Row>
                         <h3 className="fw-bold">Summary</h3>

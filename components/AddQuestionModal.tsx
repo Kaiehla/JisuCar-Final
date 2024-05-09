@@ -53,7 +53,7 @@ function AddQuestionModal({ setFaqs }: { setFaqs: React.Dispatch<React.SetStateA
 
   return (
     <>
-      <Button className={AdminFAQStyles.addqbtn} variant="warning" onClick={handleShow}>
+      <Button className={AdminFAQStyles.addqbtn} variant="success" onClick={handleShow}>
         <FaPlus /> Add Question
       </Button>
 

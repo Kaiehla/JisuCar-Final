@@ -73,7 +73,7 @@ function AddServiceModal({ setServices }: { setServices: React.Dispatch<React.Se
 
   return (
     <>
-      <Button className={AdminServiceStyles.addservicebtn} variant="warning" onClick={handleShow}>
+      <Button className={AdminServiceStyles.addservicebtn} variant="success" onClick={handleShow}>
         <FaPlus /> Add Service
       </Button>
 

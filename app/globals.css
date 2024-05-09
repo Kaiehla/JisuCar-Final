@@ -121,7 +121,7 @@ a {
 }
 
 .radio-card:hover {
-  border: 2px solid var(--agapaint-yellow);
+  border: 2px solid var(--agapaint-green);
   cursor: pointer;
 }
 
@@ -134,7 +134,7 @@ a {
 
 .radio-card-check i {
   font-size: 1.6rem;
-  color: var(--agapaint-yellow);
+  color: var(--agapaint-green);
 }
 
 .text-center {
@@ -161,7 +161,7 @@ a {
 }
 
 .radio-card.selected {
-  border: 2px solid var(--agapaint-yellow);
+  border: 2px solid var(--agapaint-green);
 }
 
 .radio-card.selected .radio-card-check {
@@ -226,7 +226,7 @@ a {
     &.fw-bold {
       &::before,
       &::after {
-        background: var(--agapaint-yellow);
+        background: var(--agapaint-green);
       }
     }
 

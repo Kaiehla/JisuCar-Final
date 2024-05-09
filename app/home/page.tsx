@@ -104,7 +104,7 @@ function CustHome() {
 
       <Container>
         <Row className="p-5 text-center mb-3">
-          <h1 className="fw-bold display-6 mb-5">WHY AGAPAINT?</h1>
+          <h1 className="fw-bold display-6 mb-5">WHY JISUCAR?</h1>
           <Col className="text-center">
             <RiServiceFill className="display-1 jisucar-green mb-3" />
             <h5 className="fw-bold">Quality Service</h5>

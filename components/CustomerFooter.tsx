@@ -23,7 +23,7 @@ function CustomFooter() {
         {/* logo */}
         <Row className="justify-content-center">
           <Col lg={12} className="d-flex justify-content-center">
-            <Image src={horilogo} alt="Horizontal Logo" height={100} width={92} />
+            <Image src={horilogo} alt="Horizontal Logo" height={100} />
           </Col>
         </Row>
         <br />
