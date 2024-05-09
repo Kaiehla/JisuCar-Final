@@ -33,7 +33,7 @@ const Sidenav = () => {
 
   const handleSignOut = async () => {
     await signOut({
-      callbackUrl: "/admin/signup"
+      callbackUrl: "/admin/signup",
     });
   };
 
@@ -48,12 +48,15 @@ const Sidenav = () => {
           <div className={`${sidenavStyles.collapsed_sidebar} d-flex flex-column justify-content-between`}>
             <div>
               <Image
-                src="/assets/logo/agapaintBlackLogo.png"
+                src="/assets/logo/logo-symbol-white.png"
                 width={70}
                 height={80}
                 alt="Collapsed Logo"
                 className="mx-auto d-block"
-                style={{ marginTop: "10px", marginBottom: "95px" }}
+                style={{
+                  marginTop: "8px",
+                  marginBottom: "98px",
+                }}
               />
               <ul className={sidenavStyles.custom_ul}>
                 <li onClick={() => handleItemClick("dashboard")}>
@@ -76,16 +79,6 @@ const Sidenav = () => {
                     <Calendar2Week size={27} className="mb-1" /> Appointment
                   </Link>
                 </li>
-                <li onClick={() => handleItemClick("inventory")}>
-                  <Link
-                    href="/admin/hub/inventory"
-                    className={`${sidenavStyles.sidebar_collapsed_link} ${
-                      activePage === "inventory" ? sidenavStyles.active_link : ""
-                    }`}
-                  >
-                    <BoxSeam size={27} className="mb-1" /> Inventory
-                  </Link>
-                </li>
                 <li onClick={() => handleItemClick("service")}>
                   <Link
                     href="/admin/hub/service"
@@ -94,16 +87,6 @@ const Sidenav = () => {
                     }`}
                   >
                     <Cart size={27} className="mb-1" /> Service
-                  </Link>
-                </li>
-                <li onClick={() => handleItemClick("sales")}>
-                  <Link
-                    href="/admin/hub/sales"
-                    className={`${sidenavStyles.sidebar_collapsed_link} ${
-                      activePage === "sales" ? sidenavStyles.active_link : ""
-                    }`}
-                  >
-                    <CreditCard size={27} /> Revenue
                   </Link>
                 </li>
                 <li onClick={() => handleItemClick("faq")}>
@@ -140,11 +123,11 @@ const Sidenav = () => {
             <div className={`${sidenavStyles.displayed_sidebar} d-flex flex-column justify-content-between`}>
               <div>
                 <Image
-                  src="/assets/logo/agapaintHubLogo.png"
+                  src="/assets/logo/logo-symbol-text-white.png"
                   width={155}
                   height={150}
                   alt="Collapsed Logo"
-                  className="mx-auto d-block my-1"
+                  className="mx-auto d-block mt-1 mb-4"
                 />
                 <hr className={sidenavStyles.custom_hr}></hr>
 
@@ -169,16 +152,6 @@ const Sidenav = () => {
                       <Calendar2Week className="mx-2 mb-1" size={20} /> Appointment
                     </Link>
                   </li>
-                  <li onClick={() => handleItemClick("inventory")}>
-                    <Link
-                      href="/admin/hub/inventory"
-                      className={`${sidenavStyles.sidebar_displayed_link} ${
-                        activePage === "inventory" ? sidenavStyles.active_link : ""
-                      }`}
-                    >
-                      <BoxSeam className="mx-2 mb-1" size={20} /> Inventory
-                    </Link>
-                  </li>
                   <li onClick={() => handleItemClick("service")}>
                     <Link
                       href="/admin/hub/service"
@@ -187,16 +160,6 @@ const Sidenav = () => {
                       }`}
                     >
                       <Cart className="mx-2 mb-1" size={20} /> Services
-                    </Link>
-                  </li>
-                  <li onClick={() => handleItemClick("sales")}>
-                    <Link
-                      href="/admin/hub/sales"
-                      className={`${sidenavStyles.sidebar_displayed_link} ${
-                        activePage === "sales" ? sidenavStyles.active_link : ""
-                      }`}
-                    >
-                      <CreditCard className="mx-2 mb-1" size={20} /> Revenue
                     </Link>
                   </li>
                   <li onClick={() => handleItemClick("faq")}>
@@ -214,7 +177,7 @@ const Sidenav = () => {
               <ul className={sidenavStyles.custom_ul}>
                 <li>
                   <Link href="/admin/signup" className={sidenavStyles.signout_displayed} onClick={handleSignOut}>
-                    <BoxArrowLeft className="mx-2 mb-1" size={20} /> Sign out
+                    <BoxArrowLeft className="mx-2" size={20} /> Sign out
                   </Link>
                 </li>
               </ul>
