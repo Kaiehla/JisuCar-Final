@@ -1,20 +1,5 @@
 "use client";
-import {
-  Container,
-  Row,
-  Col,
-  Form,
-  FormControl,
-  Table,
-  Badge,
-  InputGroup,
-  Card,
-  Button,
-  Alert,
-  Dropdown,
-  Modal,
-  Pagination,
-} from "react-bootstrap";
+import { Container, Row, Col, FormControl, Table, InputGroup, Card, Pagination } from "react-bootstrap";
 import {
   Funnel,
   Search,
@@ -26,14 +11,11 @@ import {
 } from "react-bootstrap-icons";
 import { useState, useEffect } from "react";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
-import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
 import ServiceStatus from "@/components/ServiceStatus";
-import PaymentStatus from "@/components/PaymentStatus";
 import AdminHeader from "@/components/AdminHeader";
 import AptDetails from "@/components/AptDetails";
-import AptMaterial from "@/components/AptMaterial";
 import { Appointment, AppointmentData } from "@/types";
 import axios from "axios";
 import ToastPromise from "@/components/ToastPromise";
@@ -743,15 +725,6 @@ function manageAppointment() {
               closeDetails={closeDetails}
             />
           </CSSTransition>
-          {/* Modal: Material Used */}
-          {muShow !== null && (
-            <AptMaterial
-              setActiveAppointments={setActiveAppointments}
-              appointment={muShow}
-              show={muShow}
-              hide={handleCloseModal}
-            />
-          )}
         </Row>
       </Container>
     </main>
