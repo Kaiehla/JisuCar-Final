@@ -22,7 +22,7 @@ export const completed = `
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;1,100;0,200;1,200;0,300;1,300;0,400;1,400;0,500;1,500;0,600;1,600;0,700;1,700;0,800;1,800;0,900;1,900"
       rel="stylesheet" />
-    <title>Agapaint Email Template</title>
+    <title>Jisucar Email Template</title>
     <style>
       html,
       body {
@@ -1195,7 +1195,7 @@ export const completed = `
                                                     valign="middle"
                                                     style="
                                                       padding: 40px 40px 40px 40px;
-                                                      background-color: #181818;
+                                                      background-color: #01b14f;
                                                       border-radius: 10px 10px 10px 10px;
                                                     ">
                                                     <table
@@ -1265,10 +1265,10 @@ export const completed = `
                                                                                     <tr>
                                                                                       <td align="center" valign="top">
                                                                                         <img
-                                                                                          src="https://res.cloudinary.com/dmtiq7l2k/image/upload/v1712241230/image-1711725679315_xhjbt3.png"
-                                                                                          class="pc-w620-width-226 pc-w620-height-auto"
-                                                                                          width="243"
-                                                                                          height="70"
+                                                                                        src="https://res.cloudinary.com/dzxuhgphu/image/upload/v1715231527/My_Logo_naldum.png"
+                                                                                        class="pc-w620-width-226 pc-w620-height-auto"
+                                                                                        width="100"
+                                                                                        height="50"
                                                                                           alt=""
                                                                                           style="
                                                                                             display: block;
@@ -1276,7 +1276,7 @@ export const completed = `
                                                                                             outline: 0;
                                                                                             line-height: 100%;
                                                                                             -ms-interpolation-mode: bicubic;
-                                                                                            width: 243px;
+                                                                                            width: 130px;
                                                                                             height: auto;
                                                                                             max-width: 100%;
                                                                                           " />
@@ -1337,7 +1337,7 @@ export const completed = `
                                                                         ">
                                                                         <div>
                                                                           <span>Appointment </span
-                                                                          ><span style="color: #ffb800">Completed</span>
+                                                                          ><span style="color: #253138">Completed</span>
                                                                         </div>
                                                                         <div><span>#{{nanoid}}</span></div>
                                                                       </div>
@@ -1398,7 +1398,7 @@ export const completed = `
                                                                       <div>
                                                                         <span
                                                                           style="font-weight: 400; font-style: normal"
-                                                                          >Thank you for choosing Agapaint! We hope to see you again.</span>
+                                                                          >Thank you for choosing JisuCar! We hope to see you again.</span>
                                                                       </div>
                                                                     </td>
                                                                   </tr>
