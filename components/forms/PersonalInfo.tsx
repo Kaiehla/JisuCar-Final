@@ -115,16 +115,16 @@ function PersonalInfo({
           <Form.Label>Payment Term</Form.Label>
           <ButtonGroup className="d-block w-100">
             <Button
-              variant={selectedOption === "option1" ? "warning" : "outline-warning"}
+              variant={selectedOption === "option1" ? "success" : "outline-success"}
               onClick={() => handleOptionChange("option1")}
-              className="text-dark w-50"
+              className="w-50"
             >
               Full
             </Button>
             <Button
-              variant={selectedOption === "option2" ? "warning" : "outline-warning"}
+              variant={selectedOption === "option2" ? "success" : "outline-success"}
               onClick={() => handleOptionChange("option2")}
-              className="text-dark w-50"
+              className="w-50"
             >
               Partial
             </Button>
