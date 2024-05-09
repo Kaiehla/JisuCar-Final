@@ -52,7 +52,7 @@ function Banner(props) {
           {/* Profile Page */}
           {props.page === "profile" && (
             <p className="display-6 fw-medium text-white pb-2">
-              Welcome to Your Account, <span className="text-warning">{props.userFName}</span>
+              Welcome to Your Account, <span className="text-success">{props.userFName}</span>
             </p>
           )}
 
@@ -64,7 +64,7 @@ function Banner(props) {
                 </span>
               </Button>
               <p className="fs-2 fw-medium text-white pb-2" style={{ marginLeft: "10px" }}>
-                Your Appointment <span className="text-warning">#{props.aptId}</span>
+                Your Appointment <span className="text-success">#{props.aptId}</span>
               </p>
             </div>
           )}
