@@ -32,31 +32,31 @@ function CustomFooter() {
         <Row className="d-flex text-center align-items-center">
           <Col lg={3}>
             <p className={footerStyles.footerWhite}>
-              <GeoAlt color="#198754" /> &nbsp; Caloocan, Philippines, 1400
+              <GeoAlt color="var(--agapaint-green)" /> &nbsp; Caloocan, Philippines, 1400
             </p>
           </Col>
 
           <Col lg={3}>
             <p className={footerStyles.footerWhite} onClick={() => window.location.href = `mailto:support@jisucar.com`} style={{cursor: "pointer"}}>
-              <Envelope color="#198754" /> &nbsp; support@jisucar.com
+              <Envelope color="var(--agapaint-green)" /> &nbsp; support@jisucar.com
             </p>
           </Col>
 
           <Col lg>
             <p className={footerStyles.footerWhite} onClick={() => window.location.href = `tel:09234567890`} style={{cursor: "pointer"}}>
-              <Telephone color="#198754" /> &nbsp; 0923 456 7890
+              <Telephone color="var(--agapaint-green)" /> &nbsp; 0923 456 7890
             </p>
           </Col>
 
           <Col lg>
             <p className={footerStyles.footerWhite} onClick={() => window.open('https://www.facebook.com/', '_blank')} style={{cursor: "pointer"}}>
-              <Facebook color="#198754" /> &nbsp; JisuCar Philippines
+              <Facebook color="var(--agapaint-green)" /> &nbsp; JisuCar Philippines
             </p>
           </Col>
 
           <Col lg>
             <p className={footerStyles.footerWhite} onClick={() => window.open('https://www.instagram.com/', '_blank')} style={{cursor: "pointer"}}>
-              <Instagram color="#198754" /> &nbsp; jisucarph
+              <Instagram color="var(--agapaint-green)" /> &nbsp; jisucarph
             </p>
           </Col>
         </Row>

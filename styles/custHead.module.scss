@@ -98,10 +98,10 @@
 
 button.learnBtn {
   background: none !important;
-  color: #198754;
+  color: var(--agapaint-green);
   padding: 10px 20px;
-  border: 2px solid #198754;
-  border-radius: 10px;
+  border: 2px solid var(--agapaint-green);
+  border-radius: 0.4rem;
   font-size: calc(0.3em + 1vw);
   font-weight: 600;
   margin-top: 20px;
@@ -142,13 +142,13 @@ button.learnBtn {
 }
 
 button.learnBtn:hover {
-  background-color: #198754 !important;
+  background-color: var(--agapaint-green) !important;
   color: white !important;
-  border: 2px solid black;
+  border: 2px solid var(--agapaint-green);
 }
 
 button.bookBtn {
-  background-color: var(--agapaint-yellow) !important;
+  background-color: var(--agapaint-green) !important;
   color: black;
   padding: 10px 20px;
   border: none;

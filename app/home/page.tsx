@@ -10,7 +10,7 @@ import { MdGppGood } from "react-icons/md";
 import { FaPeopleCarryBox } from "react-icons/fa6";
 import { FaFlagCheckered, FaShoppingBasket } from "react-icons/fa";
 
-import icon from "@/public/assets/img/icon.png";
+import icon from "@/public/assets/logo/logo-symbol.png";
 import about1 from "@/public/assets/img/abt1.jpg";
 import about2 from "@/public/assets/img/abt2.jpg";
 import about3 from "@/public/assets/img/abt3.jpg";
@@ -64,7 +64,7 @@ function CustHome() {
             <Col lg={4} md={4} s={12} xs={12} className={custhomeStyles.squares}>
               <Link href="/customer/service">
                 <Card className="bg-dark text-white rounded-card d-flex flex-column aspect-1x1">
-                  <Card.Img src="../assets/img/fraqbg.png" alt="Card image" />
+                  <Card.Img src="../assets/img/sq1.png" alt="Card image" />
                   <Card.ImgOverlay className="d-flex flex-column justify-content-end lh-sm">
                     <p className={`mb-0 ${custhomeStyles.cardText}`}>Paint</p>
                     <p className={`mt-0 mb-0 ${custhomeStyles.cardTitle}`}>Services</p>
@@ -77,7 +77,7 @@ function CustHome() {
             <Col lg={4} md={4} s={12} xs={12} className={custhomeStyles.squares}>
               <Link href="/customer/service">
                 <Card className="bg-dark text-white rounded-card d-flex flex-column aspect-1x1">
-                  <Card.Img src="../assets/img//appointmentbg.png" alt="Card image" />
+                  <Card.Img src="../assets/img//sq2.png" alt="Card image" />
                   <Card.ImgOverlay className="d-flex flex-column justify-content-end lh-sm">
                     <p className={`mb-0 ${custhomeStyles.cardText}`}>Body</p>
                     <p className={`mt-0 mb-0 ${custhomeStyles.cardTitle}`}>Repair</p>
@@ -90,7 +90,7 @@ function CustHome() {
             <Col lg={4} md={4} s={12} xs={12} className={custhomeStyles.squares}>
               <Link href="/customer/service">
                 <Card className="bg-dark text-white rounded-card d-flex flex-column aspect-1x1">
-                  <Card.Img src="../assets/img//servicesbg.png" alt="Card image" />
+                  <Card.Img src="../assets/img//sq3.png" alt="Card image" />
                   <Card.ImgOverlay className="d-flex flex-column justify-content-end lh-sm">
                     <p className={`mb-0 ${custhomeStyles.cardText}`}>Detailing</p>
                     <p className={`mt-0 mb-0 ${custhomeStyles.cardTitle}`}>Services</p>
@@ -143,7 +143,7 @@ function CustHome() {
                   Reviving Classics, Restoring Dreams: <br />
                   Learn About Our Automotive Restoration Journey
                 </h6>
-                <Image src={icon.src} alt="..." style={{ height: "3rem", filter: "brightness(5) invert(1)" }} />
+                <Image src={icon.src} alt="..." style={{ height: "3rem", filter: "hue-rotate(80deg) saturate(0) brightness(0.1)" }} />
               </Col>
             </Row>
           </Container>

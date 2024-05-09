@@ -2,7 +2,7 @@
   font-size: calc(2em + 3vw);
   font-weight: 800;
   margin-bottom: 0rem;
-  color: #198754;
+  color: var(--agapaint-green);
   text-align: center;
   padding-top: calc(2em + 3.5vw);
   padding-bottom: calc(1.5em + 3.5vw);
@@ -58,7 +58,7 @@
 .cardPrice1 {
   font-size: calc(0.8em + 1vw);
   font-weight: medium;
-  color: var(--agapaint-yellow);
+  color: var(--agapaint-green);
   z-index: 2;
   margin: 0px;
 }
@@ -84,7 +84,7 @@
   height: 300px;
   object-fit: cover;
   border-radius: 15px;
-  filter: brightness(40%);
+  filter: brightness(15%);
 
   &::after {
     content: "";

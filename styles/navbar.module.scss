@@ -65,7 +65,7 @@
 }
 
 .ulItem:hover {
-  color: #ffc72c;
+  color: var(--agapaint-green);
   font-weight: 500;
 }
 
@@ -114,7 +114,7 @@
 }
 
 .btnLog {
-  background: #198754;
+  background: var(--agapaint-green);
   color: white;
   padding: auto;
   align-self: center;
@@ -122,11 +122,11 @@
   font-weight: 500;
   border: #ffc72c;
   padding: 0.5rem 1rem;
-  border-radius: 0.2rem;
+  border-radius: 0.4rem;
 }
 
 .btnLog:hover {
-  background: #198754;
+  background: var(--agapaint-green);
   color: white;
 }
 
@@ -186,7 +186,7 @@
 
 .ulItem.active {
   font-weight: bold;
-  color: #198754;
+  color: var(--agapaint-green);
 }
 
 .overlay {
@@ -214,17 +214,17 @@
 }
 
 .dropdown {
-  color: #198754;
+  color: var(--agapaint-green);
   outline: none;
   border: none;
 }
 
 .dropdown:hover {
-  color: #198754;
+  color: var(--agapaint-green);
 }
 
 .dropdown::after {
-  color: #198754;
+  color: var(--agapaint-green);
 }
 
 .dropdownItem {
