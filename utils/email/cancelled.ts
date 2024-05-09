@@ -1195,7 +1195,7 @@ export const cancelled = `
                                                     valign="middle"
                                                     style="
                                                       padding: 40px 40px 40px 40px;
-                                                      background-color: #181818;
+                                                      background-color: #01B14F;
                                                       border-radius: 10px 10px 10px 10px;
                                                     ">
                                                     <table
@@ -1265,10 +1265,10 @@ export const cancelled = `
                                                                                     <tr>
                                                                                       <td align="center" valign="top">
                                                                                         <img
-                                                                                          src="https://res.cloudinary.com/dmtiq7l2k/image/upload/v1712241230/image-1711725679315_xhjbt3.png"
-                                                                                          class="pc-w620-width-226 pc-w620-height-auto"
-                                                                                          width="243"
-                                                                                          height="70"
+                                                                                        src="https://res.cloudinary.com/dzxuhgphu/image/upload/v1715231527/My_Logo_naldum.png"
+                                                                                        class="pc-w620-width-226 pc-w620-height-auto"
+                                                                                        width="100"
+                                                                                        height="50"
                                                                                           alt=""
                                                                                           style="
                                                                                             display: block;
@@ -1276,7 +1276,7 @@ export const cancelled = `
                                                                                             outline: 0;
                                                                                             line-height: 100%;
                                                                                             -ms-interpolation-mode: bicubic;
-                                                                                            width: 243px;
+                                                                                            width: 130px;
                                                                                             height: auto;
                                                                                             max-width: 100%;
                                                                                           " />
@@ -1337,7 +1337,7 @@ export const cancelled = `
                                                                         ">
                                                                         <div>
                                                                           <span>Appointment </span
-                                                                          ><span style="color: #AA4A44">Cancelled</span>
+                                                                          ><span style="color: #253138">Cancelled</span>
                                                                         </div>
                                                                         <div><span>#{{nanoid}}</span></div>
                                                                       </div>
@@ -1457,7 +1457,7 @@ export const cancelled = `
                                                                             valign="top"
                                                                             style="
                                                                               padding: 40px 20px 40px 20px;
-                                                                              background-color: #fff3cd;
+                                                                              background-color: #fff;
                                                                               border-radius: 12px 12px 12px 12px;
                                                                             ">
                                                                             <table
@@ -1529,7 +1529,7 @@ export const cancelled = `
                                                                                             Helvetica, sans-serif;
                                                                                           font-size: 18px;
                                                                                           font-weight: 600;
-                                                                                          color: #0d231c;
+                                                                                          color: #01b14f;
                                                                                           text-align: center;
                                                                                           text-align-last: center;
                                                                                           font-variant-ligatures: normal;
@@ -1573,7 +1573,7 @@ export const cancelled = `
                                                                             valign="top"
                                                                             style="
                                                                               padding: 40px 16px 40px 10px;
-                                                                              background-color: #fff3cd;
+                                                                              background-color: #fff;
                                                                               border-radius: 12px 12px 12px 12px;
                                                                             ">
                                                                             <table
@@ -1645,7 +1645,7 @@ export const cancelled = `
                                                                                             Helvetica, sans-serif;
                                                                                           font-size: 18px;
                                                                                           font-weight: 600;
-                                                                                          color: #1c3425;
+                                                                                          color: #01b14f;
                                                                                           text-align: center;
                                                                                           text-align-last: center;
                                                                                           font-variant-ligatures: normal;
@@ -1686,7 +1686,7 @@ export const cancelled = `
                                                                             valign="top"
                                                                             style="
                                                                               padding: 40px 20px 40px 20px;
-                                                                              background-color: #fff3cd;
+                                                                              background-color: #fff;
                                                                               border-radius: 12px 12px 12px 12px;
                                                                             ">
                                                                             <table
@@ -1758,7 +1758,7 @@ export const cancelled = `
                                                                                             Helvetica, sans-serif;
                                                                                           font-size: 18px;
                                                                                           font-weight: 600;
-                                                                                          color: #1c3425;
+                                                                                          color: #01b14f;
                                                                                           text-align: center;
                                                                                           text-align-last: center;
                                                                                           font-variant-ligatures: normal;
@@ -1875,7 +1875,7 @@ export const cancelled = `
                                                                                                   mso-padding-left-alt: 0;
                                                                                                   margin-left: 24px;
                                                                                                 "
-                                                                                                bgcolor="#f1b038">
+                                                                                                bgcolor="#253138">
                                                                                                 <a
                                                                                                   class="pc-font-alt"
                                                                                                   style="
@@ -1906,7 +1906,7 @@ export const cancelled = `
                                                                                             display: inline-block;
                                                                                             border-radius: 500px 500px
                                                                                               500px 500px;
-                                                                                            background-color: #f1b038;
+                                                                                            background-color: #253138;
                                                                                             padding: 12px 24px 12px 24px;
                                                                                             width: 300px;
                                                                                             font-family: Urbanist, Arial,

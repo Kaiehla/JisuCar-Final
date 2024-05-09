@@ -22,7 +22,7 @@ export const forReleasePartialPayment = `
     <link
       href="https://fonts.googleapis.com/css?family=Poppins:ital,wght@0,100;1,100;0,200;1,200;0,300;1,300;0,400;1,400;0,500;1,500;0,600;1,600;0,700;1,700;0,800;1,800;0,900;1,900"
       rel="stylesheet" />
-    <title>Agapaint Email Template</title>
+    <title>Jisucar Email Template</title>
     <style>
       html,
       body {
@@ -1195,7 +1195,7 @@ export const forReleasePartialPayment = `
                                                     valign="middle"
                                                     style="
                                                       padding: 40px 40px 40px 40px;
-                                                      background-color: #181818;
+                                                      background-color: #01B14F;
                                                       border-radius: 10px 10px 10px 10px;
                                                     ">
                                                     <table
@@ -1265,10 +1265,10 @@ export const forReleasePartialPayment = `
                                                                                     <tr>
                                                                                       <td align="center" valign="top">
                                                                                         <img
-                                                                                          src="https://res.cloudinary.com/dmtiq7l2k/image/upload/v1712241230/image-1711725679315_xhjbt3.png"
-                                                                                          class="pc-w620-width-226 pc-w620-height-auto"
-                                                                                          width="243"
-                                                                                          height="70"
+                                                                                        src="https://res.cloudinary.com/dzxuhgphu/image/upload/v1715231527/My_Logo_naldum.png"
+                                                                                        class="pc-w620-width-226 pc-w620-height-auto"
+                                                                                        width="100"
+                                                                                        height="50"
                                                                                           alt=""
                                                                                           style="
                                                                                             display: block;
@@ -1276,7 +1276,7 @@ export const forReleasePartialPayment = `
                                                                                             outline: 0;
                                                                                             line-height: 100%;
                                                                                             -ms-interpolation-mode: bicubic;
-                                                                                            width: 243px;
+                                                                                            width: 130px;
                                                                                             height: auto;
                                                                                             max-width: 100%;
                                                                                           " />
@@ -1337,7 +1337,7 @@ export const forReleasePartialPayment = `
                                                                         ">
                                                                         <div>
                                                                           <span>Appointment </span
-                                                                          ><span style="color: #7CB9E8">For Release</span>
+                                                                          ><span style="color: #253138">For Release</span>
                                                                         </div>
                                                                         <div><span>#{{nanoid}}</span></div>
                                                                       </div>
@@ -1398,7 +1398,7 @@ export const forReleasePartialPayment = `
                                                                       <div>
                                                                         <span
                                                                           style="font-weight: 400; font-style: normal"
-                                                                          >Thank you for waiting and patronizing with Agapaint!</span
+                                                                          >Thank you for waiting and patronizing with JisuCar!</span
                                                                         >
                                                                       </div>
                                                                     </td>
@@ -1454,7 +1454,7 @@ export const forReleasePartialPayment = `
                                                                             valign="top"
                                                                             style="
                                                                               padding: 40px 20px 40px 20px;
-                                                                              background-color: #fff3cd;
+                                                                              background-color: #fff;
                                                                               border-radius: 12px 12px 12px 12px;
                                                                             ">
                                                                             <table
@@ -1526,7 +1526,7 @@ export const forReleasePartialPayment = `
                                                                                             Helvetica, sans-serif;
                                                                                           font-size: 18px;
                                                                                           font-weight: 600;
-                                                                                          color: #0d231c;
+                                                                                          color: #01b14f;
                                                                                           text-align: center;
                                                                                           text-align-last: center;
                                                                                           font-variant-ligatures: normal;
@@ -1570,7 +1570,7 @@ export const forReleasePartialPayment = `
                                                                             valign="top"
                                                                             style="
                                                                               padding: 40px 16px 40px 10px;
-                                                                              background-color: #fff3cd;
+                                                                              background-color: #fff;
                                                                               border-radius: 12px 12px 12px 12px;
                                                                             ">
                                                                             <table
@@ -1642,7 +1642,7 @@ export const forReleasePartialPayment = `
                                                                                             Helvetica, sans-serif;
                                                                                           font-size: 18px;
                                                                                           font-weight: 600;
-                                                                                          color: #1c3425;
+                                                                                          color: #01B14F;
                                                                                           text-align: center;
                                                                                           text-align-last: center;
                                                                                           font-variant-ligatures: normal;
@@ -1683,7 +1683,7 @@ export const forReleasePartialPayment = `
                                                                             valign="top"
                                                                             style="
                                                                               padding: 40px 20px 40px 20px;
-                                                                              background-color: #fff3cd;
+                                                                              background-color: #fff;
                                                                               border-radius: 12px 12px 12px 12px;
                                                                             ">
                                                                             <table
@@ -1755,7 +1755,7 @@ export const forReleasePartialPayment = `
                                                                                             Helvetica, sans-serif;
                                                                                           font-size: 18px;
                                                                                           font-weight: 600;
-                                                                                          color: #1c3425;
+                                                                                          color: #01B14F;
                                                                                           text-align: center;
                                                                                           text-align-last: center;
                                                                                           font-variant-ligatures: normal;
@@ -1864,7 +1864,7 @@ export const forReleasePartialPayment = `
                                                                                                   width: 300px;
                                                                                                   border-radius: 500px
                                                                                                     500px 500px 500px;
-                                                                                                  background-color: #f1b038;
+                                                                                                  background-color: #01b14f;
                                                                                                   text-align: center;
                                                                                                   color: #ffffff;
                                                                                                   padding: 12px 24px
@@ -1872,7 +1872,7 @@ export const forReleasePartialPayment = `
                                                                                                   mso-padding-left-alt: 0;
                                                                                                   margin-left: 24px;
                                                                                                 "
-                                                                                                bgcolor="#f1b038">
+                                                                                                bgcolor="#253138">
                                                                                                 <a
                                                                                                   class="pc-font-alt"
                                                                                                   style="
@@ -1903,7 +1903,7 @@ export const forReleasePartialPayment = `
                                                                                             display: inline-block;
                                                                                             border-radius: 500px 500px
                                                                                               500px 500px;
-                                                                                            background-color: #f1b038;
+                                                                                            background-color: #252138;
                                                                                             padding: 12px 24px 12px 24px;
                                                                                             width: 300px;
                                                                                             font-family: Urbanist, Arial,
@@ -1981,7 +1981,7 @@ export const forReleasePartialPayment = `
                                                                                                   email to fully verify
                                                                                                   your appointment with
                                                                                                   us. Reach out to the
-                                                                                                  Agapaint&#39;s
+                                                                                                  JisuCar&#39;s
                                                                                                   Official Facebook Page
                                                                                                   for
                                                                                                 </span>
@@ -2120,7 +2120,7 @@ export const forReleasePartialPayment = `
                                               <div>
                                                 <span style="color: rgb(13, 35, 28)">Appointment Id:</span
                                                 ><span style="color: rgb(29, 52, 37)"> </span
-                                                ><span style="color: #f1b038">#{{nanoid}}</span>
+                                                ><span style="color: #01b14f">#{{nanoid}}</span>
                                               </div>
                                             </td>
                                           </tr>
@@ -2183,7 +2183,7 @@ export const forReleasePartialPayment = `
                                                               <span style="color: rgb(13, 35, 28)"
                                                                 >Services Availed:</span
                                                               >
-                                                              <span style="color: #f1b038">{{services}}</span>
+                                                              <span style="color: #01b14f">{{services}}</span>
                                                             </div>
                                                             <div>
                                                           </td>
