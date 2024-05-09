@@ -154,7 +154,7 @@ function custAppointment() {
 
                 {/* Book Appointment */}
                 <Link href="/booking">
-                  <Button variant="warning" className="mb-3" style={{ padding: "0.50rem 1rem", fontSize: "0.85rem" }}>
+                  <Button variant="success" className="mb-3" style={{ padding: "0.50rem 1rem", fontSize: "0.85rem", backgroundColor: "var(--agapaint-green)" }}>
                     Book New Appointment
                   </Button>
                 </Link>
@@ -213,7 +213,7 @@ function custAppointment() {
                       variant={isListView ? "secondary" : "outline-secondary"}
                       style={
                         isListView
-                          ? { backgroundColor: "var(--bs-warning-bg-subtle)", color: "var(--bs-secondary-color)" }
+                          ? { backgroundColor: "var(--bs-success-bg-subtle)", color: "var(--bs-secondary-color)" }
                           : {}
                       }
                       onClick={(e) => {
@@ -230,7 +230,7 @@ function custAppointment() {
                       variant={!isListView ? "secondary" : "outline-secondary"}
                       style={
                         !isListView
-                          ? { backgroundColor: "var(--bs-warning-bg-subtle)", color: "var(--bs-secondary-color)" }
+                          ? { backgroundColor: "var(--bs-success-bg-subtle)", color: "var(--bs-secondary-color)" }
                           : {}
                       }
                       onClick={(e) => {

@@ -52,7 +52,7 @@ function Banner(props) {
           {/* Profile Page */}
           {props.page === "profile" && (
             <p className="display-6 fw-medium text-white pb-2">
-              Welcome to Your Account, <span className="text-warning">{props.userFName}</span>
+              Welcome to Your Account, <span className="jisucar-green">{props.userFName}</span>
             </p>
           )}
 
