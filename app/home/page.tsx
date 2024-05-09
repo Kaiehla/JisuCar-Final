@@ -11,9 +11,9 @@ import { FaPeopleCarryBox } from "react-icons/fa6";
 import { FaFlagCheckered, FaShoppingBasket } from "react-icons/fa";
 
 import icon from "@/public/assets/img/icon.png";
-import about1 from "@/public/assets/img/about1.png";
-import about2 from "@/public/assets/img/about2.png";
-import about3 from "@/public/assets/img/about3.png";
+import about1 from "@/public/assets/img/abt1.jpg";
+import about2 from "@/public/assets/img/abt2.jpg";
+import about3 from "@/public/assets/img/abt3.jpg";
 import Header from "@/components/CustomerHeader";
 import Footer from "@/components/CustomerFooter";
 import Navbar from "@/components/CustomerNav";
@@ -106,27 +106,27 @@ function CustHome() {
         <Row className="p-5 text-center mb-3">
           <h1 className="fw-bold display-6 mb-5">WHY AGAPAINT?</h1>
           <Col className="text-center">
-            <RiServiceFill className="display-1 text-warning mb-3" />
+            <RiServiceFill className="display-1 text-success mb-3" />
             <h5 className="fw-bold">Quality Service</h5>
             <p className="mb-0">Experience top-tier automotive care</p>
           </Col>
           <Col className="text-center">
-            <MdGppGood className="display-1 text-warning mb-3" />
+            <MdGppGood className="display-1 text-success mb-3" />
             <h5 className="fw-bold">Convenience</h5>
             <p className="mb-0">Enjoy hassle-free solutions on the go</p>
           </Col>
           <Col className="text-center">
-            <FaPeopleCarryBox className="display-1 text-warning mb-3" />
+            <FaPeopleCarryBox className="display-1 text-success mb-3" />
             <h5 className="fw-bold">Personalized Service</h5>
             <p className="mb-0">Tailored options for your unique needs</p>
           </Col>
           <Col className="text-center">
-            <FaFlagCheckered className="display-1 text-warning mb-3" />
+            <FaFlagCheckered className="display-1 text-success mb-3" />
             <h5 className="fw-bold">Unmatched Finish</h5>
             <p className="mb-0">Transforming your vehicle with precision</p>
           </Col>
           <Col className="text-center">
-            <FaShoppingBasket className="display-1 text-warning mb-3" />
+            <FaShoppingBasket className="display-1 text-success mb-3" />
             <h5 className="fw-bold">Versatile Choices</h5>
             <p className="mb-0">Explore a variety of services tailored to you</p>
           </Col>
@@ -135,7 +135,7 @@ function CustHome() {
 
       {/* ABOUT US */}
       <section className="bg-white">
-        <aside className="text-center bg-warning p-5">
+        <aside className="text-center bg-success p-5">
           <Container>
             <Row className="justify-content-center">
               <Col xl={8}>
@@ -167,9 +167,8 @@ function CustHome() {
                   <Col xs={12} xl={11}>
                     <h2 className="mb-3">Who Are We?</h2>
                     <p className="lead fs-4 text-secondary mb-3">
-                      AGAPAINT, established in 2020, is a shop that specializes in Automotive Detailing, Ceramic &
-                      Graphene Coating, and Body Repair and Repaint Services using the highest quality products, tools,
-                      and materials
+                      JisuCar, established in 2024, is an automotive shop that specializes in Routine Maintenance, Repair Services, and 
+                      Detailing Services using the highest quality products, tools, and materials
                     </p>
                   </Col>
                 </Row>
@@ -186,9 +185,9 @@ function CustHome() {
                   <Col xs={12} xl={11}>
                     <h2 className="mb-3">Mission and Values</h2>
                     <p className="lead fs-4 text-secondary mb-3">
-                      AGAPAINT offers comprehensive automotive services with various packages for all vehicle types.
-                      Whether you require interior work or a basic detail, we specialize in enhancing painting,
-                      detailing, and ceramic coating services.
+                    JisuCar is dedicated to delivering exceptional automotive care services that prioritize customer satisfaction. 
+                    With a focus on reliability, efficiency, and personalized solutions, we aim to build long-lasting relationships by 
+                    upholding professionalism, integrity, and continuous improvement.
                     </p>
                   </Col>
                 </Row>
@@ -225,10 +224,10 @@ function CustHome() {
                   <Col xs={12} xl={11}>
                     <h2 className="mb-3">Team Commitment</h2>
                     <p className="lead fs-4 text-secondary mb-3">
-                      At AGAPAINT, we are more than just a team – we are a family united by our love for cars and our
-                      dedication to exceeding customer expectations. When you trust us with your vehicle, you can rest
-                      assured that you are in the hands of skilled professionals who care deeply about delivering
-                      outstanding results.
+                      At JisuCar, we're dedicated to delivering top-quality automotive care services. With our 
+                      experienced team of skilled technicians, we offer tailored maintenance and repair solutions for 
+                      your vehicle. From routine maintenance to comprehensive repairs and detailing, we prioritize 
+                      excellence in every aspect of our work.
                     </p>
                   </Col>
                 </Row>
@@ -250,7 +249,7 @@ function CustHome() {
 
       <Container className="p-5 mt-4 mb-4">
         {/* Call to Action */}
-        <aside className="bg-warning rounded-3 p-sm-5">
+        <aside className="bg-success rounded-3 p-sm-5">
           <Container className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
             <div className="mb-4 mb-xl-0">
               <div className={`fs-3 fw-bold text-white ${custhomeStyles.expContainer}`}>
