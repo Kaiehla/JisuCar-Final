@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { Modal, Image } from "react-bootstrap";
-import logoSecondary from "@/public/assets/logo/logoSecondaryBlack.png";
+import logoSecondary from "@/public/assets/logo/logo-symbol-text.png";
 
 function PrivacyPolicyModal() {
   const [modalShow, setModalShow] = useState(false);
@@ -23,13 +23,13 @@ function PPModal(props) {
       <Modal {...props} aria-labelledby="contained-modal-title-vcenter" centered size="xl" scrollable>
         <Modal.Body className="p-5">
           <div className="d-flex justify-content-center">
-            <Image src={logoSecondary.src} fluid style={{width: "35%"}} />
+            <Image src={logoSecondary.src} width={84} height={91} />
           </div>
           <h4 className="fw-semibold">Privacy Policy</h4>
           <p>
             This Privacy Policy is in compliance with the{" "}
             <strong>Data Privacy Act of the Philippines (Republic Act No. 10173)</strong> and governs the collection,
-            use, and disclosure of personal information by <strong>Agapaint - Automotive Restoration Service ("Agapaint," "we,"
+            use, and disclosure of personal information by <strong>JisuCar - Vehicle Restoration Service ("JisuCar," "we,"
             "us," or "our")</strong>. We are committed to protecting the privacy and security of your personal information. This
             Privacy Policy describes how we collect, use, disclose, and protect the information we collect through our
             website and any related services (collectively, the "Services").
@@ -129,10 +129,10 @@ function PPModal(props) {
 
           <p>
             If you have any questions or concerns about this Privacy Policy or our privacy practices, please contact us
-            at Agapaint's Official Facebook Page.
+            at JisuCar's Official Facebook Page.
           </p>
 
-          <p>Thank you for choosing Agapaint - Automotive Restoration Service.</p>
+          <p>Thank you for choosing JisuCar - Vehicle Restoration Service.</p>
         </Modal.Body>
         <Modal.Footer>
           <button className="btn btn-dark ps-3 pe-3" onClick={props.onHide}>

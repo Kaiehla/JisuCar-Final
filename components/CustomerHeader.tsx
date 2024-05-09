@@ -12,9 +12,9 @@ function Header() {
           <Row>
             <Col className="pl-lg-5 pl-md-3 pl-sm-1">
               <h1 className={custHeadStyles.h1Top}>
-                COMMITMENT
+                CRAFTED FOR
                 <br />
-                TO <span className="text-warning">QUALITY</span>
+                <span className="text-success">BRILLIANCE</span>
               </h1>
             </Col>
           </Row>

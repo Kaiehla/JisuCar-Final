@@ -61,20 +61,20 @@ function Navbar2() {
         <Link href="/">
           <div style={{ display: "flex", alignItems: "center" }}>
             <Image
-              src="/assets/img/icon.png"
+              src="/assets/logo/logo-symbol.png"
               alt="logo"
               width={70}
               height={70}
               onClick={() => handleItemClick("home")}
             />
             <span className={navStyles.spanText} style={{ marginLeft: "10px" }} onClick={() => handleItemClick("home")}>
-              AGAPAINT
+              JisuCar
             </span>
           </div>
         </Link>
 
         {/* hamburger for smaller screen sizes */}
-        <FaBars color="#ffc72c" className={navStyles.bars} onClick={handleBarsClick} />
+        <FaBars color="#198754" className={navStyles.bars} onClick={handleBarsClick} />
 
         <div className={`${navStyles.navbar} ${isNavVisible ? navStyles.open : ""}`}>
           <ul className={navStyles.ul}>

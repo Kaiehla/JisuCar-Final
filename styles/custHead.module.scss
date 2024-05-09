@@ -1,6 +1,6 @@
 .topHeader {
   position: relative;
-  background-image: url("../public/assets/img/headerbg.png");
+  background-image: url("../public/assets/img/green1.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -98,9 +98,9 @@
 
 button.learnBtn {
   background: none !important;
-  color: var(--agapaint-yellow);
+  color: #198754;
   padding: 10px 20px;
-  border: 2px solid var(--agapaint-yellow);
+  border: 2px solid #198754;
   border-radius: 10px;
   font-size: calc(0.3em + 1vw);
   font-weight: 600;
@@ -142,8 +142,8 @@ button.learnBtn {
 }
 
 button.learnBtn:hover {
-  background-color: #ffc72c !important;
-  color: black !important;
+  background-color: #198754 !important;
+  color: white !important;
   border: 2px solid black;
 }
 
