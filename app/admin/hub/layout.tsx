@@ -16,7 +16,7 @@ const AdminLayout = ({ children }) => {
       <Next13NProgress color="#f1b038" height={5} />
       {/* for the children or the main content */}
       <div style={{ width: contentWidth, overflowY: "auto", padding: "0px" }}>
-        <Next13NProgress color="#f1b038" height={5} />
+        <Next13NProgress color="#01b14f" height={5} />
         {children}
       </div>
     </div>

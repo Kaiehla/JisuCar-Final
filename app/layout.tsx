@@ -35,7 +35,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
       <body className={poppins.className}>
         <SessionProvider session={session}>
           <main>{children}</main>
-          <Next13NProgress color="#f1b038" height={5} />
+          <Next13NProgress color="#01b14f" height={5} />
         </SessionProvider>
       </body>
     </html>
