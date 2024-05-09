@@ -42,7 +42,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-icon">
@@ -59,7 +59,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-icon">
@@ -76,7 +76,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-icon">
@@ -93,7 +93,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-icon">
@@ -110,7 +110,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-icon">
@@ -127,7 +127,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-icon">
@@ -144,7 +144,7 @@ function CarType({
         }}
       >
         <div className="radio-card-check">
-          <FaCheckCircle className="text-warning h4" />
+          <FaCheckCircle className="text-success h4" />
         </div>
         <div className="text-center">
           <div className="radio-card-label lh-sm">

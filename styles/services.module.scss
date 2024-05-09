@@ -7,13 +7,13 @@
 }
 
 .outlined:hover {
-    border: 1.5px solid #f1b038;
+    border: 1.5px solid var(--agapaint-green);
     cursor: pointer;
 }
 
 input[type="checkbox"]:checked + .outlined {
-    background-color: #f8c04723;
-    border: 1.5px solid #f1b038;
+    background-color: #34b35e23;
+    border: 1.5px solid var(--agapaint-green);
     cursor: pointer;
 }
 
