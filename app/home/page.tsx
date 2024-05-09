@@ -106,27 +106,27 @@ function CustHome() {
         <Row className="p-5 text-center mb-3">
           <h1 className="fw-bold display-6 mb-5">WHY AGAPAINT?</h1>
           <Col className="text-center">
-            <RiServiceFill className="display-1 text-success mb-3" />
+            <RiServiceFill className="display-1 jisucar-green mb-3" />
             <h5 className="fw-bold">Quality Service</h5>
             <p className="mb-0">Experience top-tier automotive care</p>
           </Col>
           <Col className="text-center">
-            <MdGppGood className="display-1 text-success mb-3" />
+            <MdGppGood className="display-1 jisucar-green mb-3" />
             <h5 className="fw-bold">Convenience</h5>
             <p className="mb-0">Enjoy hassle-free solutions on the go</p>
           </Col>
           <Col className="text-center">
-            <FaPeopleCarryBox className="display-1 text-success mb-3" />
+            <FaPeopleCarryBox className="display-1 jisucar-green mb-3" />
             <h5 className="fw-bold">Personalized Service</h5>
             <p className="mb-0">Tailored options for your unique needs</p>
           </Col>
           <Col className="text-center">
-            <FaFlagCheckered className="display-1 text-success mb-3" />
+            <FaFlagCheckered className="display-1 jisucar-green mb-3" />
             <h5 className="fw-bold">Unmatched Finish</h5>
             <p className="mb-0">Transforming your vehicle with precision</p>
           </Col>
           <Col className="text-center">
-            <FaShoppingBasket className="display-1 text-success mb-3" />
+            <FaShoppingBasket className="display-1 jisucar-green mb-3" />
             <h5 className="fw-bold">Versatile Choices</h5>
             <p className="mb-0">Explore a variety of services tailored to you</p>
           </Col>
@@ -135,7 +135,7 @@ function CustHome() {
 
       {/* ABOUT US */}
       <section className="bg-white">
-        <aside className="text-center bg-success p-5">
+        <aside className="text-center jisucar-green-bg p-5">
           <Container>
             <Row className="justify-content-center">
               <Col xl={8}>
@@ -249,7 +249,7 @@ function CustHome() {
 
       <Container className="p-5 mt-4 mb-4">
         {/* Call to Action */}
-        <aside className="bg-success rounded-3 p-sm-5">
+        <aside className="jisucar-green-bg rounded-3 p-sm-5">
           <Container className="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
             <div className="mb-4 mb-xl-0">
               <div className={`fs-3 fw-bold text-white ${custhomeStyles.expContainer}`}>
