@@ -38,7 +38,7 @@ export async function POST(request: NextRequest) {
   const mailOptions: Mail.Options = {
     from: process.env.ADMIN_EMAIL,
     to: emailData.email,
-    subject: `Agapaint Appointment Cancelled for ${emailData.carManufacturer} ${emailData.carModel}`,
+    subject: `[#${emailData.nanoid}] JisuCar Appointment Cancelled for ${emailData.carManufacturer} ${emailData.carModel}`,
     html: compileEmailTemplate(
       emailData.nanoid,
       emailData.date,
