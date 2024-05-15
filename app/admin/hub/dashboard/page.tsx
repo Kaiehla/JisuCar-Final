@@ -238,14 +238,14 @@ function Dashboard() {
                 <DashboardCards
                   cardTitle="Services Available"
                   count={noOfServices.toString()}
-                  logo={<Cart size={32} />}
+                  logo={<Cart className="text-white" size={32} />}
                 />
               </Col>
               <Col>
                 <DashboardCards
                   cardTitle="Customers"
                   count={activeCustomers.toString()}
-                  logo={<PeopleFill size={32} />}
+                  logo={<PeopleFill className="text-white" size={32} />}
                 />
               </Col>
             </Row>

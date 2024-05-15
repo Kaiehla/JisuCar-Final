@@ -16,7 +16,7 @@ function DashboardCards({ cardTitle, count, logo }: DashboardCardProps) {
             <div
               className="p-4"
               style={{
-                backgroundColor: "#FFC94D",
+                backgroundColor: "#01b14f",
                 borderRadius: "50%",
               }}
             >
