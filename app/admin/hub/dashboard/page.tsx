@@ -220,16 +220,40 @@ function Dashboard() {
       <Container fluid className="p-4 min-vh-100">
         <AdminHeader
           title="Welcome to Dashboard!"
-          subtitle="View to quickly check the status of appointment and inventory for the week"
+          subtitle="View to quickly check the status of appointments for the week"
         />
 
         {/* col for this week cards, low-mat table, and overview cards */}
         <Row className="mt-2">
           <Col sm={9}>
+            <Row className="mt-1">
+              <Col sm={12} lg={12} md={12} xl={12}>
+                <div className="mb-2" style={{ backgroundColor: "hsl(153, 97.5%, 28.2%)", borderRadius: "5px" }}>
+                  <h5 className="py-1 ps-2 text-white">Overview</h5>
+                </div>
+              </Col>
+
+              {/* row for overview, col for low-mat table only */}
+              <Col>
+                <DashboardCards
+                  cardTitle="Services Available"
+                  count={noOfServices.toString()}
+                  logo={<Cart size={32} />}
+                />
+              </Col>
+              <Col>
+                <DashboardCards
+                  cardTitle="Customers"
+                  count={activeCustomers.toString()}
+                  logo={<PeopleFill size={32} />}
+                />
+              </Col>
+            </Row>
+
             {/* row for this week cards */}
             <Col sm={12} lg={12} md={12} xl={12}>
-              <div className="mb-2" style={{ backgroundColor: "#FFC94D", borderRadius: "5px" }}>
-                <h5 className="py-1 ps-2">This Week</h5>
+              <div className="mb-2" style={{ backgroundColor: "hsl(153, 97.5%, 28.2%)", borderRadius: "5px" }}>
+                <h5 className="py-1 ps-2 text-white">This Week</h5>
               </div>
             </Col>
             {currentAppointments.length > 0 ? (
@@ -270,88 +294,13 @@ function Dashboard() {
                 />
               </Pagination>
             </div>
-
-            {/* row for overview: low-mat table and overview cards */}
-            <Row className="mt-1">
-              <Col sm={12} lg={12} md={12} xl={12}>
-                <div className="mb-2" style={{ backgroundColor: "#FFC94D", borderRadius: "5px" }}>
-                  <h5 className="py-1 ps-2">Overview</h5>
-                </div>
-              </Col>
-
-              {/* row for overview, col for low-mat table only */}
-              <Col sm={8}>
-                <Card className="p-2">
-                  <Col>
-                    <h5 className="mb-0 pt-2 ps-2">Low Material List</h5>
-                    <small className="text-muted pt-2 ps-2">
-                      An overview of the list of materials that are currently considered to be low on stock.
-                    </small>
-                    {/* reminder: this view allows the admin to see a scroll bar if marami na nakalista */}
-                    <Card
-                      className="border-0 rounded pb-2 mt-3"
-                      style={{ height: currentAppointments.length > 0 ? "334px" : "328px", overflow: "auto" }}
-                    >
-                      <Table striped hover className="align-middle responsive">
-                        <thead>
-                          <tr>
-                            <th>Material Name</th>
-                            <th>Category</th>
-                            <th>Current Stock</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          {/* Placeholder Component */}
-                          {loading ? (
-                            <PlaceholderRow col="3" />
-                          ) : lowStockMaterials.length > 0 ? (
-                            [...lowStockMaterials].reverse().map((material: Material, index) => (
-                              <tr key={material._id}>
-                                <td>{material.name}</td>
-                                <td>
-                                  <Badge pill bg="danger-subtle" text="dark">
-                                    {material.category.name}
-                                  </Badge>
-                                </td>
-                                <td className="text-danger fw-semibold">{material.quantity}</td>
-                              </tr>
-                            ))
-                          ) : (
-                            <NoRecordRow colSpan={3} message="Looks like all your materials are still sufficient!" />
-                          )}
-                        </tbody>
-                      </Table>
-                    </Card>
-                  </Col>
-                </Card>
-              </Col>
-
-              {/* row of overview, col for overview cards like total rev, etc */}
-              <Col sm={4} className="m-0 ps-0 pe-3">
-                <DashboardCards
-                  cardTitle="Total Revenue (₱)"
-                  count={totalRevenue.toFixed(2)}
-                  logo={<CreditCard size={32} />}
-                />
-                <DashboardCards
-                  cardTitle="Services Available"
-                  count={noOfServices.toString()}
-                  logo={<Cart size={32} />}
-                />
-                <DashboardCards
-                  cardTitle="Customers"
-                  count={activeCustomers.toString()}
-                  logo={<PeopleFill size={32} />}
-                />
-              </Col>
-            </Row>
           </Col>
 
           {/* col for appointments section */}
           <Col sm={3}>
             <Row>
-              <div className="mb-2 p-0" style={{ backgroundColor: "#FFC94D", borderRadius: "5px" }}>
-                <h5 className="pt-1 ps-2 pb-0">Appointments</h5>
+              <div className="mb-2 p-0" style={{ backgroundColor: "hsl(153, 97.5%, 28.2%)", borderRadius: "5px" }}>
+                <h5 className="pt-1 ps-2 pb-0 text-white">Appointments</h5>
               </div>
               <Card style={{ backgroundColor: "#f4f7f9" }}>
                 <Card.Body className="px-0 py-2">
